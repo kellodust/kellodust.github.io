@@ -1,0 +1,62 @@
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: salmon;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav{
+    color: salmon;
+    line-height: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: left;
+    color: salmon;
+}
+
+a{
+    color: salmon;
+    text-align: center;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1200px;
+    text-align: left;
+}
+
+header, footer, footer a {
+    text-align: left;
+    background-color: salmon;
+    color: whitesmoke;
+}
+
+header{
+    height: 100px;
+}
+
+header img {
+    float: right;
+    border-radius: 50%;
+}
+
+footer {
+    float: inherit;
+    font-size: 12px;
+    text-align: center;
+}
