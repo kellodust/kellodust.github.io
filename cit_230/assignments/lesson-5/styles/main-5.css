@@ -52,7 +52,7 @@ header h1 {
     font-size: 5em;
     text-align: center;
     font-weight: 1;
-    
+    color: #BF9640;
 
 }
 
@@ -89,6 +89,9 @@ nav {
 }
 
 nav button {
+    width: 1%;
+    height: 1%;
+
 }
 
 nav ul {
@@ -130,16 +133,43 @@ main {
     border: none;
     padding: 100px;
     text-align: left;
+    position: relative;
+    top: -14em;
 }
 
 main img{
-    width: 700px;
+    width: 900px;
     float: left;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-main h2 {}
+main h2 {
+    font-size: 1.8em;
+    position: relative;
+    font-weight: 1;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .18em;    
+}
+
+main h3 {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1.5em;
+    font-weight: 1;
+}
+
+main p {
+    font-size: 15.5pt;
+}
+
+.current{
+    font-size: 20pt;
+    font-weight: 1;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+}
 
 main figure {
     margin: 0 0 .2rem 2%;
@@ -155,4 +185,19 @@ section.forecast {
     display: none;
 }
 
-footer {}
+table {
+    font-size: 15pt;
+    letter-spacing: 1pt;
+    line-height: 1.8em;
+}
+
+footer {
+    width: 1000px;
+    height: 200px;
+    border: none;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    opacity: .6;
+
+}
