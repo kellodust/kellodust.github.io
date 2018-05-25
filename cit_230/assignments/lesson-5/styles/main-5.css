@@ -1,11 +1,12 @@
 
+
 body {
     display: block;
     background-color: black;
     color: #BF9640;
-    font-size: 16px;
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
+
 }
 
 header, nav, main, footer {
@@ -13,36 +14,35 @@ header, nav, main, footer {
     margin-top: 0rem;
     padding: .5rem;
     padding-top: 0rem;
-    max-width: 1000px;
+    max-width: 3;
     text-align: left;
 }
 
 header {
-    width: 1000px;
-    height: 400px;
-    border: none;
-    top: 0;
+
 
 }
 
 header img {
     float: top;
-    width: 1000px;
+    width: 125%;
     border: none;
 }
 
 #logo {
-    width: 200px;
+    width: 100%;
     position: absolute;
-    top: 0px;
-    
+    top: 0%;
+    left: 15%
+
 }
 
 header h1 {
 
     position: absolute;
-    top: -20px;
-    width: 1000px;
+    top: 35%;
+    left: 13%;
+    width: 100%;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: .4em;
@@ -54,30 +54,31 @@ header h1 {
 }
 
 header #the {
-    padding: 48px 50px;
-    position: absolute;
+
+    top: 10%m;
     font-size: 2em;
-    text-align: left;
-    letter-spacing: 10px;
+
 
 }
 
 header .subheading {
     position: absolute;
-    padding-left: 20em;
-    top: 120px;
+    top: 65%;
+    left: 15%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     letter-spacing: .6em;
     text-transform: uppercase;
     font-size: .8em;
+    width: 100%
 }
+
 
 nav {
     position: absolute;
-    top: 200px;
+    top: 75%;
     font-family: 'Playfair Display', serif;
-    font-size: .85em;
+    font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: .4em;
     word-spacing: 1.4em;
@@ -90,25 +91,28 @@ nav {
 
 nav button{
     background-color: black;
-    padding: 2em;
     position: absolute;
-    width: 70px;
+    left: 7.5em;
+    width: 100px;
     
 }
 
 nav button img{
-    width: 50px;
+    width: 80px;
 
 }
 
 nav ul {
+    display: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: block;
+    line-height: 2em;
+    
 }
 
 nav ul li a {
@@ -136,18 +140,18 @@ nav ul li a:active {
 }
 
 main {
-    width: 900px;
+    width: 100%;
     border: none;
     text-align: left;
     position: relative;
-    margin-top: -9em;
+    margin-top: 120%;
     padding-left: 50px;
     padding-right: 50px;
     font-weight: normal;
 }
 
 main img{
-    width: 900px;
+    width: 100%;
     float: left;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -166,7 +170,7 @@ main h3 {
     text-transform: uppercase;
     letter-spacing: .15em;
     font-size: 1.3em;
-    font-weight: normal;
+    font-weight: nor
 }
 
 main p {
@@ -181,7 +185,7 @@ main p {
 }
 
 article{
-    width: 900px;
+    width: 100%;
     line-height: 2em;
 }
 
@@ -208,8 +212,8 @@ table {
 }
 
 footer {
-    width: 1000px;
-    height: 200px;
+    width: 120%;
+    height: 20%;
     border: none;
     bottom: 0;
     text-align: center;
