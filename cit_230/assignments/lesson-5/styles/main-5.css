@@ -14,7 +14,7 @@ header, nav, main, footer {
     margin-top: 0rem;
     padding: .5rem;
     padding-top: 0rem;
-    max-width: 3;
+    max-width: 100%;
     text-align: left;
 }
 
@@ -55,7 +55,7 @@ header h1 {
 
 header #the {
 
-    top: 10%m;
+    top: 10%;
     font-size: 2em;
 
 
@@ -63,7 +63,7 @@ header #the {
 
 header .subheading {
     position: absolute;
-    top: 65%;
+    top: 68%;
     left: 15%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -170,7 +170,7 @@ main h3 {
     text-transform: uppercase;
     letter-spacing: .15em;
     font-size: 1.3em;
-    font-weight: nor
+    font-weight: normal;
 }
 
 main p {
