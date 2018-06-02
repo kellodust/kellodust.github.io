@@ -41,8 +41,6 @@
 
     <main>
         <h2>Franklin's Weather</h2>
-        <figure>
-        </figure>
         <section class="weather-summary">
             <div class="current">
                 Sunny
@@ -98,12 +96,16 @@
         <article>
             <h3>Franklin Breaks Record</h3>
         
-            <picture>
-                <img src="images/franklin-small.jpg" alt="Sunny Day">
-                <source media="(min-width: 600px)" srcset="images/franklin-medium.jpg">
-                <source media="(min-width: 1024px)" srcset="images/franklin-large.jpg">
+  
+            <img
+                srcset="./images/franklin-large1.jpg 2000w,
+                        ./images/franklin-medium1.jpg 800w,
+                        ./images/franklin-small1.jpg 600w"
+                alt="Sunny Day">
+      
+               
 
-            </picture>
+         
     
             <p class="town-article"> Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.
             </p>
