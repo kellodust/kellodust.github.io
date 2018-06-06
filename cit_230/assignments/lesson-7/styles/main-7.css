@@ -52,7 +52,7 @@ header {
 }
 
 header img {
-    width: 120%;
+    width: 100%;
     border: none;
 }
 
@@ -68,7 +68,6 @@ header h1 {
 
     position: absolute;
     top: 35%;
-    left: 13%;
     width: 100%;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
@@ -91,13 +90,12 @@ header #the {
 header .subheading {
     position: absolute;
     top: 68%;
-    left: 20%;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     letter-spacing: .6em;
     text-transform: uppercase;
     font-size: .9em;
-    width: 80%
+    width: 100%
 }
 
 
@@ -117,8 +115,7 @@ nav {
 
 nav button{
     background-color: black;
-    position: absolute;
-
+    position: relative;
     width: 100px;
 
     
@@ -176,6 +173,14 @@ main {
     padding-left: 1em;
     padding-right: 1em;
     font-weight: normal;
+}
+
+.gallery img:hover {
+    position: relative;
+    transition: .3s;
+    width: 115%;
+    
+
 }
 
 main img{
