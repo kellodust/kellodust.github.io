@@ -242,6 +242,13 @@ main p {
     font-weight: normal;
 }
 
+.conditions h3{
+    font-size: 25pt;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-weight: normal;
+}
+
 article {
     width: 90%;
     line-height: 2em;
