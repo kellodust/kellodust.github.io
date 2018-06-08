@@ -200,7 +200,7 @@ main {
     font-weight: normal;
 }
 
-.gallery img:hover {
+.gallery figure:hover {
     position: relative;
     transition: .3s;
     opacity: .5;
