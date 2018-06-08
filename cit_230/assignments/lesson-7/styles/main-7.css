@@ -200,6 +200,8 @@ main {
     font-weight: normal;
 }
 
+
+
 .gallery figure:hover {
     position: relative;
     transition: .3s;
@@ -269,12 +271,14 @@ table {
 }
 
 
-footer {
+.footer {
     
+    padding: 1%;
     display: block;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     text-align: center;
-    opacity: .6;
     width: 100%;
+    background-color: black;
     
 }
