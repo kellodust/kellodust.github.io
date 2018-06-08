@@ -26,10 +26,77 @@ header, nav, main, footer {
     padding-top: 0rem;
     max-width: 100%;
 }
+    
+div .header{
+    display: flex;
+
+}
+
+div a{
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+
+.header h1 {
+    
+    order: 2;
+    position: absolute;
+    align-items: flex-start;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 5em;
+    text-align: center;
+    color: #BF9640;
+    font-weight: normal;
+
+}
+
+header #the {
+
+   /* top: 35%; */
+    font-size: 2em;
+
+
+}
+
+.header .subheading {
+    
+    position: absolute;
+    order: 3;
+    align-items: flex-end;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    font-size: .9em;
+    width: 100%
+}
+
+
+nav {
+    
+    order: 4;
+    align-items: flex-end;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+
+}
+
 
 header {
     width: 100%;
-    height: 400px;
+    height: 300px;
     border: none;
     top: 0;
 
@@ -75,7 +142,7 @@ header #the {
 header .subheading {
 
     position: absolute;
-    top: 15%;
+    top: 160px;
     width: 100%;
     left: auto;
 }
@@ -157,22 +224,19 @@ main {
 .gallery{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 3;
-    grid-gap: 1%;
+    grid-gap: 15px;
 
 }
 
 .gallery img {
-    width: 90%;
-    padding: 0px;
+
+    width: 100%;
+    height: auto;
 }
     
-.gallery img:hover {
-    position: relative;
-    transition: .3s;
-    width: 115%;
-}
+.gallery figure{
     
+}
     
 main img{
     width: 500px;
@@ -243,6 +307,7 @@ footer {
     display: block;
     opacity: .6;
     float: bottom;
+    position: absolute;
 
 }
 }

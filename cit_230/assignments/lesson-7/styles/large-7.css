@@ -10,6 +10,14 @@ main {
     padding-right: 50px;
     font-weight: normal;
 }
+    
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 2;
+    grid-gap: 1%;
+
+}
 
 main img{
     width: 900px;
