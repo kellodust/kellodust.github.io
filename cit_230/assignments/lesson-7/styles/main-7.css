@@ -51,9 +51,6 @@ header, nav, main {
     padding-top: 0rem;
     max-width: 100%;
     text-align: left;
-}
-div .header{
-    display: flex;
 
 }
 
@@ -63,16 +60,22 @@ div a{
 .header {
     display: flex;
     flex-direction: column;
-    height: 700px;
 
 }
-div #logo{
-    top: 0px;
-    position: relative;
+.header figure{ 
+    padding: 0;
+    margin: 0;
+    height: 250px;
+    justify-content: center;
+    top: 50px;
+    position: absolute;
     order: 1;
-    align-items: flex-start;
- 
-    
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    width: 80%;
 }
 
 header img {
@@ -82,16 +85,11 @@ header img {
     margin: none;
 }
 
-#logo {
-    width: 100%;
-
-}
-
 .header h1 {
     
-    order: 2;
+    order: 3;
     position: relative;
-    align-items: flex-start;
+    top: 100px;
     width: 100%;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
@@ -104,30 +102,35 @@ header img {
 }
 
 header #the {
-
-   /* top: 35%; */
+    
+    order: 2;
     font-size: 2em;
+    height: 0px;
+    
 
 
 }
 
 .header .subheading {
     
+    top: 50px;
     position: relative;
-    order: 3;
+    order: 4;
     align-items: flex-end;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     letter-spacing: .6em;
     text-transform: uppercase;
     font-size: .9em;
-    width: 100%
+    width: 100%;
+
 }
 
 
 nav {
     
-    order: 4;
+    top: 50px;
+    order: 5;
     align-items: flex-end;
     position: relative;
     font-family: 'Playfair Display', serif;
@@ -158,6 +161,7 @@ nav button img{
 nav ul {
 
     list-style-type: none;
+    
     margin: 0;
     padding: 0;
 }
@@ -194,7 +198,7 @@ main {
     border: none;
     text-align: left;
     position: relative;
-    top: 13em;
+    top: 1em;
     padding-left: 1em;
     padding-right: 1em;
     font-weight: normal;
@@ -273,9 +277,8 @@ table {
 
 .footer {
     
-    padding: 1%;
+
     display: block;
-    position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;

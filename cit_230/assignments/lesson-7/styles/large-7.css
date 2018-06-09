@@ -1,11 +1,15 @@
 @media only screen and (min-width: 1024px ) {
+
+.header h1{
+        font-size: 5em;
+    }
     
 main {
     width: 900px;
     border: none;
     text-align: left;
     position: relative;
-    margin-top: -9em;
+    margin-top: -3em;
     padding-left: 50px;
     padding-right: 50px;
     font-weight: normal;

@@ -43,53 +43,35 @@ div a{
     
 }
 
+
 .header h1 {
     
     order: 2;
     position: absolute;
     align-items: flex-start;
-    width: 100%;
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    letter-spacing: .4em;
-    font-size: 5em;
-    text-align: center;
-    color: #BF9640;
-    font-weight: normal;
+    top: 0;
+    font-size: 4em;
 
 }
 
 header #the {
 
-   /* top: 35%; */
     font-size: 2em;
 
-
 }
+
 
 .header .subheading {
     
     position: absolute;
     order: 3;
-    align-items: flex-end;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    letter-spacing: .6em;
-    text-transform: uppercase;
-    font-size: .9em;
-    width: 100%
+    top: 158px;
+
 }
-
-
 nav {
     
-    order: 4;
-    align-items: flex-end;
+    top: 0;
     position: absolute;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    letter-spacing: .4em;
 
 }
 
@@ -136,16 +118,6 @@ header #the {
     letter-spacing: 10px;
 
 }
-
-header .subheading {
-
-    position: absolute;
-    top: 160px;
-    width: 100%;
-    left: auto;
-}
-
-
 
 nav {
 
@@ -212,7 +184,7 @@ main {
     border: none;
     text-align: left;
     position: relative;
-    margin-top: -9em;
+    margin-top: 0em;
     padding-left: 50px;
     padding-right: 50px;
     font-weight: normal;
@@ -303,7 +275,6 @@ footer {
     text-align: center;
     display: block;
     opacity: .6;
-    float: bottom;
     position: absolute;
 
 }
