@@ -1,34 +1,56 @@
-@media only screen and (min-width: 600px) {
-    
-    nav button { display: none; }  
-    section.forecast { display: contents; }  
-    
-    
-    
 
+
+
+.navigation li { 
+    display: none; 
     
-    
+}
+
+.navigation.responsive { 
+    position: relative;
+
+
+
+}
+
+.navigation.responsive button{ 
+    left: 4.55em; 
+
+
+}
+
+.navigation.responsive li { 
+    background-color: black;
+    display: block;	
+    width: 100%; 
+  
+
+}
+.navigation.responsive li a {	
+    text-align: center;	
+    display: block; 
+
+  
+}
 
 
 body {
-    display: block;
+    
+
     background-color: black;
     color: #BF9640;
-    font-size: 16px;
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
+
 }
 
-header, nav, main, footer {
+header, nav, main {
     margin: 1.25rem auto;
     margin-top: 0rem;
     padding: .5rem;
     padding-top: 0rem;
     max-width: 100%;
-}
-    
-div .header{
-    display: flex;
+    text-align: left;
 
 }
 
@@ -39,92 +61,80 @@ div a{
     display: flex;
     flex-direction: column;
 
-
-    
 }
-
-
-.header h1 {
-    
-    order: 2;
+.header figure{ 
+    padding: 0;
+    margin: 0;
+    height: 250px;
+    justify-content: center;
+    top: 50px;
     position: absolute;
-    align-items: flex-start;
-    top: 0;
-    font-size: 4em;
-
-}
-
-header #the {
-
-    font-size: 2em;
-
-}
-
-
-.header .subheading {
-    
-    position: absolute;
-    order: 3;
-    top: 158px;
-
-}
-nav {
-    
-    top: 0;
-    position: absolute;
-
-}
-
-
-header {
+    order: 1;
     width: 100%;
-    height: 300px;
-    border: none;
-    top: 0;
-
-}
-
-header img {
-
-    width: 100%;
-
+    text-align: center;
 }
 
 #logo {
-    display: none;
-    
+    width: 80%;
 }
 
-header h1 {
+header img {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
 
-    top: 0px;
+.header h1 {
+    
+    order: 3;
+    position: relative;
+    top: 100px;
     width: 100%;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: .4em;
-    font-size: 500%;
+    font-size: 5em;
     text-align: center;
     color: #BF9640;
     font-weight: normal;
-    left: auto;
-    
+
 }
 
 header #the {
     
-    top: -3px;
+    order: 2;
     font-size: 2em;
-    text-align: center;
-    letter-spacing: 10px;
+    height: 0px;
+    
+
 
 }
 
-nav {
-
-    top: 200px;
+.header .subheading {
+    
+    top: 50px;
+    position: relative;
+    order: 4;
+    align-items: flex-end;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    font-size: .9em;
     width: 100%;
+
+}
+
+
+nav {
+    
+    top: 50px;
+    order: 5;
+    align-items: flex-end;
+    position: relative;
     font-family: 'Playfair Display', serif;
-    font-size: .95em;
+    font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: .4em;
 
@@ -134,29 +144,36 @@ nav {
     word-spacing: .5em;
 }
 
-.navigation li {
-    display: contents;
-    }    
+nav button{
+    background-color: black;
+    position: relative;
+    width: 100px;
 
-.flex {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-shrink: 3;
+    
+}
 
+nav button img{
+    width: 80px;
+    border: none;
 
+}
 
+nav ul {
+
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
+    display: block;
+    line-height: 2em;
     
-
-
 }
 
 nav ul li a {
-    padding: 1em;
+    padding: 10px;
     color: #BF9640;
     text-decoration: none;
 }
@@ -171,47 +188,38 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-    transition: .5s;
+    transition: .3s;
     color: gold;
 }
 
-nav ul li a:active {
-    color: gold;
-}
 
 main {
-    width: 500px;
+    max-width: 100%;
     border: none;
     text-align: left;
     position: relative;
-    margin-top: 0em;
-    padding-left: 50px;
-    padding-right: 50px;
+    top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     font-weight: normal;
 }
 
-.gallery{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 15px;
 
-}
 
-.gallery img {
+.gallery figure:hover {
+    position: relative;
+    transition: .3s;
+    opacity: .5;
 
-    width: 100%;
-    height: auto;
-}
-    
-.gallery figure{
     
 }
-    
+
 main img{
-    width: 500px;
+    width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 
 main h2 {
     font-size: 1.8em;
@@ -240,18 +248,17 @@ main p {
     font-weight: normal;
 }
 
-article{
-    width: 500px;
+.conditions h3{
+    font-size: 25pt;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-weight: normal;
+}
+
+article {
+    width: 90%;
     line-height: 2em;
-}
 
-main figure {
-    margin: 0 0 .2rem 2%;
-    width: 96%;
-}
-
-main figure img {
-    width: 50px
     
 }
 
@@ -267,14 +274,14 @@ table {
     text-transform: uppercase;
 }
 
-footer {
-    width: 100%;
-    height: 80px;
-    border: none;
-    text-align: center;
-    display: block;
-    opacity: .6;
-    position: absolute;
 
-}
+.footer {
+    
+
+    display: block;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    
 }
