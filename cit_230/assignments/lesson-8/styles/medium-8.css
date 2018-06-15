@@ -95,14 +95,14 @@ header img {
     
 }
 
-header h1 {
+.header h1 {
 
     top: 0px;
     width: 100%;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: .4em;
-    font-size: 500%;
+    font-size: 400%;
     text-align: center;
     color: #BF9640;
     font-weight: normal;

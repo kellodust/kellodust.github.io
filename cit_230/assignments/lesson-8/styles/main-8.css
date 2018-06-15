@@ -94,7 +94,7 @@ header img {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: .4em;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     color: #BF9640;
     font-weight: normal;
@@ -148,6 +148,7 @@ nav button{
     background-color: black;
     position: relative;
     width: 100px;
+    border: none;
 
     
 }
@@ -274,6 +275,51 @@ table {
     text-transform: uppercase;
 }
 
+form {
+}
+
+input {
+    border: none; 
+    border-bottom: 2px solid #BF9640;
+    background-color: black;
+    color: #BF9640;
+}
+textarea {
+    border: 2px solid #BF9640;
+    background-color: black;
+    color: #BF9640;
+
+}
+
+form label{
+
+    display: inline;
+    padding: 8px;
+    min-width: 15px;
+
+}
+
+select{
+    background-color: black;
+    color: #BF9640;
+    border: #BF9640;
+}
+
+#name{
+    display: inline;
+}
+#danger label {
+    display: inline;
+    padding-left: 2em;
+}
+#comments {
+    display: block;
+    padding: .5em;
+}
+
+#commentslabel {
+    display: block;
+}
 
 .footer {
     
