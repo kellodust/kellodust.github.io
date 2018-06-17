@@ -48,41 +48,41 @@
 
         <form action="thanks.html" method="get">
            <div id="name">
-                <label for="firstName">First Name:</label>
-                <input type="text" id=firstname name="firstName" title="First Name" required pattern="[A-Za-z- ]{3,}">
+                <label for="firstname">First Name:</label>
+                <input type="text" id=firstname name="firstname" title="First Name" required pattern="[A-Za-z- ]{3,}">
 
-                <label for="lastName">Last Name:</label>
+                <label for="lastname">Last Name:</label>
                 <input type="text" id=lastname name="lastName" title="Last Name" required pattern="[A-Za-z- ]{4,}">
             </div><br>
             
             <br>
 
-            <div id=email>
+            <div>
                 <label for="email">Email:</label>
 
-                <input type="email" name="email" title="Email" placeholder="hello@email.com"></div><br>
+                <input id="email" type="email" name="email" title="Email" placeholder="hello@email.com"></div><br>
 
-            <div id=telephone>
+            <div>
                 <label for="telephone">Telephone: </label>
 
-                <input type="tel" name="telephone" title="Telephone" required>
+                <input id="telephone" type="tel" name="telephone" title="Telephone" required>
             </div><br>
 
 
-            <div id=zip>
+            <div>
                 <label for="zipcode">Zip Code: </label>
 
-                <input type="number" name="zipcode" title="Zip Code" required></div><br>
-
-
-            <div id=date>
-                <label for="date">Storm Date:</label>
-
-                <input type="date" name="date" title="Date"></div><br>
+                <input type="number"  id=zipcode name="zipcode" title="Zip Code" required></div><br>
 
 
             <div>
-                <label for="type">Storm Type:</label>
+                <label for="date">Storm Date:</label>
+
+                <input type="date"  id="date" name="date" title="Date"></div><br>
+
+
+            <div>
+                <label>Storm Type:</label>
 
                 <input list="type" name="stormtype" title="Storm Type">
                 <datalist id="type">
@@ -96,7 +96,7 @@
             <br>
 
             <div>
-                <label for="severity">Storm Severity: </label>
+                <label for="stormseverity">Storm Severity: </label>
 
                 <input type="range" name="stormseverity" id="stormseverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="severity">5</span><br>
@@ -106,8 +106,8 @@
             <div>
                 <label for="region">Storm Region: </label>
 
-                <select name="stormregion" title="Storm Region">
-                    <option selected="selected" disabled="default">Select a Region...</option>
+                <select name="stormregion" title="Storm Region" id="region">
+                    <option selected="selected" disabled>Select a Region...</option>
                     <option value="franklin">Franklin</option>
                     <option value="greenville">Greenville</option>
                     <option value="springfield">Springfield</option>
@@ -121,16 +121,16 @@
 
 
                 <label for="yes">Yes</label>
-                <input type="radio" name="yes" title="Yes">
+                <input type="radio" id="yes" name="yes" title="Yes">
                 <label for="no">No</label>
-                <input type="radio" name="no" title="No">
+                <input type="radio" id="no" name="no" title="No">
                 <label for="maybe">Maybe</label>
-                <input type="radio" name="maybe" title="Maybe">
+                <input type="radio" id="maybe" name="maybe" title="Maybe">
             </div>
             <br>
 
             <div>
-                <label id="commentslabel" for="comments">Additional Information or Comments</label>
+                <label for="comments" class="commentslabel">Additional Information or Comments</label>
                 <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
             </div>
 

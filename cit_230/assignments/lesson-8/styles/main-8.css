@@ -85,7 +85,7 @@ header img {
     margin: 0;
 }
 
-.header h1 {
+header h1 {
     
     order: 3;
     position: relative;
@@ -317,7 +317,7 @@ select{
     padding: .5em;
 }
 
-#commentslabel {
+.commentslabel {
     display: block;
 }
 
