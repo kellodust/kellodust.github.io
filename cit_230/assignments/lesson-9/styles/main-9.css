@@ -1,0 +1,287 @@
+
+
+
+.navigation li { 
+    display: none; 
+    
+}
+
+.navigation.responsive { 
+    position: relative;
+
+
+
+}
+
+.navigation.responsive button{ 
+    left: 4.55em; 
+
+
+}
+
+.navigation.responsive li { 
+    background-color: black;
+    display: block;	
+    width: 100%; 
+  
+
+}
+.navigation.responsive li a {	
+    text-align: center;	
+    display: block; 
+
+  
+}
+
+
+body {
+    
+
+    background-color: black;
+    color: #BF9640;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+
+}
+
+header, nav, main {
+    margin: 1.25rem auto;
+    margin-top: 0rem;
+    padding: .5rem;
+    padding-top: 0rem;
+    max-width: 100%;
+    text-align: left;
+
+}
+
+div a{
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+.header figure{ 
+    padding: 0;
+    margin: 0;
+    height: 250px;
+    justify-content: center;
+    top: 50px;
+    position: absolute;
+    order: 1;
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    width: 80%;
+}
+
+header img {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header h1 {
+    
+    order: 3;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 5em;
+    text-align: center;
+    color: #BF9640;
+    font-weight: normal;
+
+}
+
+header #the {
+    
+    order: 2;
+    font-size: 2em;
+    height: 0px;
+    
+
+
+}
+
+.header .subheading {
+    
+    top: 50px;
+    position: relative;
+    order: 4;
+    align-items: flex-end;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    font-size: .9em;
+    width: 100%;
+
+}
+
+
+nav {
+    
+    top: 50px;
+    order: 5;
+    align-items: flex-end;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+
+}
+
+#storm-center{
+    word-spacing: .5em;
+}
+
+nav button{
+    background-color: black;
+    position: relative;
+    width: 100px;
+
+    
+}
+
+nav button img{
+    width: 80px;
+    border: none;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    line-height: 2em;
+    
+}
+
+nav ul li a {
+    padding: 10px;
+    color: #BF9640;
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    transition: .3s;
+    color: gold;
+}
+
+
+main {
+    max-width: 100%;
+    border: none;
+    text-align: left;
+    position: relative;
+    top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: normal;
+}
+
+
+
+.gallery figure:hover {
+    position: relative;
+    transition: .3s;
+    opacity: .5;
+
+    
+}
+
+main img{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+main h2 {
+    font-size: 1.8em;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-weight: normal;
+}
+
+main h3 {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+main p {
+    font-size: 15.5pt;
+}
+
+.current{
+    font-size: 20pt;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-weight: normal;
+}
+
+.conditions h3{
+    font-size: 25pt;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-weight: normal;
+}
+
+article {
+    width: 90%;
+    line-height: 2em;
+
+    
+}
+
+section.forecast {
+    display: none;
+}
+
+table {
+    font-size: 15pt;
+    letter-spacing: 1pt;
+    line-height: 1.8em;
+    word-spacing: 2em;
+    text-transform: uppercase;
+}
+
+
+.footer {
+    
+
+    display: block;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    
+}

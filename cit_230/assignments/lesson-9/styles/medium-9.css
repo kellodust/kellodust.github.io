@@ -1,0 +1,280 @@
+@media only screen and (min-width: 600px) {
+    
+    nav button { display: none; }  
+    section.forecast { display: contents; }  
+    
+    
+    
+
+    
+    
+
+
+body {
+    display: block;
+    background-color: black;
+    color: #BF9640;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    margin-top: 0rem;
+    padding: .5rem;
+    padding-top: 0rem;
+    max-width: 100%;
+}
+    
+div .header{
+    display: flex;
+
+}
+
+div a{
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+
+
+.header h1 {
+    
+    order: 2;
+    position: absolute;
+    align-items: flex-start;
+    top: 0;
+    font-size: 4em;
+
+}
+
+header #the {
+
+    font-size: 2em;
+
+}
+
+
+.header .subheading {
+    
+    position: absolute;
+    order: 3;
+    top: 158px;
+
+}
+nav {
+    
+    top: 0;
+    position: absolute;
+
+}
+
+
+header {
+    width: 100%;
+    height: 300px;
+    border: none;
+    top: 0;
+
+}
+
+header img {
+
+    width: 100%;
+
+}
+
+#logo {
+    display: none;
+    
+}
+
+.header h1 {
+
+    top: 0px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 400%;
+    text-align: center;
+    color: #BF9640;
+    font-weight: normal;
+    left: auto;
+    
+}
+
+header #the {
+    
+    top: -3px;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 10px;
+
+}
+
+nav {
+
+    top: 200px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: .95em;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+
+}
+
+#storm-center{
+    word-spacing: .5em;
+}
+
+.navigation li {
+    display: contents;
+    }    
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-shrink: 3;
+
+
+
+}
+
+nav ul li {
+    
+
+
+}
+
+nav ul li a {
+    padding: 1em;
+    color: #BF9640;
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    transition: .5s;
+    color: gold;
+}
+
+nav ul li a:active {
+    color: gold;
+}
+
+main {
+    width: 500px;
+    border: none;
+    text-align: left;
+    position: relative;
+    margin-top: 0em;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: normal;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+
+}
+
+.gallery img {
+
+    width: 100%;
+    height: auto;
+}
+    
+.gallery figure{
+    
+}
+    
+main img{
+    width: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+main h2 {
+    font-size: 1.8em;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-weight: normal;
+}
+
+main h3 {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+main p {
+    font-size: 15.5pt;
+}
+
+.current{
+    font-size: 20pt;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-weight: normal;
+}
+
+article{
+    width: 500px;
+    line-height: 2em;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {
+    width: 50px
+    
+}
+
+section.forecast {
+    display: none;
+}
+
+table {
+    font-size: 15pt;
+    letter-spacing: 1pt;
+    line-height: 1.8em;
+    word-spacing: 2em;
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    border: none;
+    text-align: center;
+    display: block;
+    opacity: .6;
+    position: absolute;
+
+}
+}
