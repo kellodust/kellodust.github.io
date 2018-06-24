@@ -45,7 +45,7 @@
             myPara2.textContent = 'Year Founded: ' + cities[i].yearFounded;
             myPara3.textContent = 'Population: ' + cities[i].currentPopulation;
             myPara4.textContent = 'Year Founded: ' + cities[i].yearFounded;
-            myPara5.textContent = 'Annual Rainfall: ' + cities[i].annualRainfall;
+            myPara5.textContent = 'Annual Rainfall: ' + cities[i].averageRainfall;
   /*          myPara6.textContent = 'events: ' + cities[i].events; */
 
             

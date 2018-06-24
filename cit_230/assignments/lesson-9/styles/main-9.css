@@ -266,9 +266,16 @@ section.forecast {
     display: none;
 }
 
-section #citiesfacts {
-    display: flex;
+section#citiesfacts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
     
+}
+
+#weathericon {
+    width: 30%;
+
 }
 
 table {
