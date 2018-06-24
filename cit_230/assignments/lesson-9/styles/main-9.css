@@ -266,13 +266,14 @@ section.forecast {
     display: none;
 }
 
-section#citiesfacts {
+
+/*section#citiesfacts {
     display: grid;
     grid-template-columns: auto auto auto;
 
     
 }
-
+*/
 #weathericon {
     width: 30%;
 
