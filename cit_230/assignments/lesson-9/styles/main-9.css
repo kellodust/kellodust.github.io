@@ -266,6 +266,11 @@ section.forecast {
     display: none;
 }
 
+section #citiesfacts {
+    display: flex;
+    
+}
+
 table {
     font-size: 15pt;
     letter-spacing: 1pt;
