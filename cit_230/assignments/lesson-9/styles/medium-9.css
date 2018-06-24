@@ -258,6 +258,16 @@ main figure img {
 section.forecast {
     display: none;
 }
+    
+section#cityfacts {
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
+div.town img{
+        width: 60%;
+    }
 
 table {
     font-size: 15pt;

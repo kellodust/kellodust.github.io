@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Franklin Weather Page from The Rainy Day">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main-8.css">
-    <link rel="stylesheet" href="styles/medium-8.css">
-    <link rel="stylesheet" href="styles/large-8.css">
+    <link rel="stylesheet" href="styles/main-9.css">
+    <link rel="stylesheet" href="styles/medium-9.css">
+    <link rel="stylesheet" href="styles/large-9.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
@@ -30,7 +30,7 @@
         <nav class="navigation">
             <button onclick="myNav()"><img src="images/hamburgerIcon_Prancheta%201.png" alt="Menu"></button>
             <ul class=flex>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="franklin-8.html">Franklin</a></li>
                 <li><a href="#">Greenville</a></li>
                 <li><a href="#">Springfield</a></li>
@@ -58,6 +58,11 @@
           
             <div class="conditions">
                  <h3>Current Conditions</h3>
+                  
+        <p>Weather conditions for: <span id=city>city</span></p>
+        <p>Current Temperature: <span id=temperature>00</span>&deg;</p>
+        <p>Wind Speed: <span id="currentWind">00</span></p>
+        <img src="images/flowers.jpg" alt="Current Weather" id="weathericon">
                 <p>Precipitation: 0%</p>
                 <p>Wind Speed: 5 mph SW</p>
                 <p>Wind Chill:
@@ -127,6 +132,7 @@
         <section class="footer-bar">&copy; 2018 | All Rights Reserved | The Rainy Day | <span id="currentdate"></span><span id="currentday"></span><span id="currentmonth"></span><span id="currentyear"></span>
         </section>
     </div>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
