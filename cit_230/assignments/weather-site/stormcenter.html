@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Rainy Day—Storm Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Franklin Weather Page from The Rainy Day">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <img id="storm" src="images/storm.jpg" alt="storm">
+        <div class="header">
+            <figure> <a><img id="logo" src="images/logo-03.png" alt="Logo"></a>
+            </figure>
+            <a href="#">
+                <h1 id="the">The</h1>
+                <h1>Rainy Day</h1>
+            </a>
+            <h3 class="subheading">The Weather Site for the Prosperous</h3>
+            <nav class="navigation">
+                <button onclick="myNav()"><img src="images/hamburgerIcon_Prancheta%201.png" alt="Menu"></button>
+                <ul class=flex>
+                   <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li id="storm-center"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+       
+        <h2>Storm Center</h2>
+
+        <p>Is there unusual weather in your area? Report the weather here for us so that we can let others know.</p>
+
+        <form action="thanks.html" method="get">
+           <div id="name">
+                <label for="firstname">First Name:</label>
+                <input type="text" id=firstname name="firstname" title="First Name" required pattern="[A-Za-z- ]{3,}">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id=lastname name="lastName" title="Last Name" required pattern="[A-Za-z- ]{4,}">
+            </div><br>
+            
+            <br>
+
+            <div>
+                <label for="email">Email:</label>
+
+                <input id="email" type="email" name="email" title="Email" placeholder="hello@email.com"></div><br>
+
+            <div>
+                <label for="telephone">Telephone: </label>
+
+                <input id="telephone" type="tel" name="telephone" title="Telephone" required>
+            </div><br>
+
+
+            <div>
+                <label for="zipcode">Zip Code: </label>
+
+                <input type="number"  id=zipcode name="zipcode" title="Zip Code" required></div><br>
+
+
+            <div>
+                <label for="date">Storm Date:</label>
+
+                <input type="date"  id="date" name="date" title="Date"></div><br>
+
+
+            <div>
+                <label>Storm Type:</label>
+
+                <input list="type" name="stormtype" title="Storm Type">
+                <datalist id="type">
+                              <option value="Flash Flood">
+                              <option value="Hail">
+                              <option value="Hurricane">
+                              <option value="Thunderstorm">
+                              <option value="Tornado">
+                            </datalist>
+            </div>
+            <br>
+
+            <div>
+                <label for="stormseverity">Storm Severity: </label>
+
+                <input type="range" name="stormseverity" id="stormseverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="severity">5</span><br>
+            </div>
+            <br>
+
+            <div>
+                <label for="region">Storm Region: </label>
+
+                <select name="stormregion" title="Storm Region" id="region">
+                    <option selected="selected" disabled>Select a Region...</option>
+                    <option value="franklin">Franklin</option>
+                    <option value="greenville">Greenville</option>
+                    <option value="springfield">Springfield</option>
+                            
+                </select>
+            </div>
+            <br>
+
+            <div id=danger>
+                <span>Are you in danger?</span>
+
+
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="yes" title="Yes">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="no" title="No">
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="maybe" title="Maybe">
+            </div>
+            <br>
+
+            <div>
+                <label for="comments" class="commentslabel">Additional Information or Comments</label>
+                <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+            </div>
+
+
+            <br><input type="submit" value="Save">
+
+        </form>
+
+    </main>
+
+    <div class=footer>
+        <section class="contact">
+            Contact information placeholder 999.999.9999 123 Main St. Anytown, US 99999 Google Map
+        </section>
+        <section class="footer-bar">&copy; 2018 | All Rights Reserved | The Rainy Day | <span id="currentdate"></span><span id="currentday"></span><span id="currentmonth"></span><span id="currentyear"></span>
+        </section>
+    </div>
+    <script src="scripts/severity.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+
+</html>
