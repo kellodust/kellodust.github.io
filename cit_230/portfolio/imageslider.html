@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html>
-<title>Image Slider</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles/imageslider.css">
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Rainy Day—Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/imageslider.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+</head>
+
 <body>
+
+    <header>
+        <h1>Kelsie Dustin</h1>
+        <h2>Kellodust Design</h2>
+   <nav><ul>
+                    <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li id="storm-center"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+    </header>
+    
+    <main>
 
 <h2>Cool Pics and Stuff</h2>
 
 <div class="slideshow">
-  <img class="slides" src="images/flowers.jpg" alt="Flowers">
+  <img class="slides" src="images/feet.jpg" alt="Pink Feet">
   <img class="slides" src="images/kayaking.png" alt="People kayaking">
-  <img class="slides" src="images/girl.jpg" alt="Girl">
-  <img class="slides" src="images/shadow.jpg" alt="Shadow of Man">
+  <img class="slides" src="images/needles.jpg" alt="Pine Needles">
+  <img class="slides" src="images/lucky.jpg" alt="Shamrocks">
 
   <button id="leftbutton" class="leftbutton" onclick="plusDivs(-1)">&#10094;</button>
   <button class="rightbutton" onclick="plusDivs(1)">&#10095;</button>
 </div>
-
+</main>
 <script src="scripts/imageslider.js"></script>
+
 </body>
 </html>

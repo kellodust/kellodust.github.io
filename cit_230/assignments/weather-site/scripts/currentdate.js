@@ -1,4 +1,5 @@
-
+function setCurrentDate()
+{
     var d = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday, ";
@@ -37,3 +38,5 @@
 
     var d = new Date();
     document.getElementById("currentyear").innerHTML = d.getFullYear();
+    
+}

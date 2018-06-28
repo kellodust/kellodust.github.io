@@ -259,14 +259,26 @@ section.forecast {
     display: none;
 }
     
-/*
+
 section#cityfacts {
     display: grid;
     grid-template-columns: auto auto;
+    grid-gap: 20px;
 
 
 }
-*/
+section#cityfacts article{
+    width: 100%;
+   
+    }
+    
+    
+section#cityfacts img{
+    width: 100%;
+
+
+}
+
 div.town img{
         width: 60%;
     }

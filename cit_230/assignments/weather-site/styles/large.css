@@ -22,6 +22,7 @@ main {
 
 }
 
+
 main img{
     width: 900px;
     padding-top: 25px;
@@ -32,5 +33,25 @@ main img{
 article{
         width: 900px;
     }  
+    
+section#cityfacts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+
+
+}
+section#cityfacts article{
+    width: 285px;
+    text-align: center;
+   
+    }
+    
+    
+section#cityfacts img{
+    width: 285px;
+
+
+}
     
   }
