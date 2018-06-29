@@ -178,10 +178,14 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:active {
-    color: aqua;
+
+nav ul li.active a {
+    color: gold;
 }
 
+nav ul li:active {
+    text-decoration: underline;
+}
 nav ul li a:visited {
     text-decoration: none;
     
