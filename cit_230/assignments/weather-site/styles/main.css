@@ -1,5 +1,5 @@
 
-
+/*Hamburger Menu */
 
 .navigation li { 
     display: none; 
@@ -33,6 +33,7 @@
   
 }
 
+/*Body and main */
 
 body {
     
@@ -57,6 +58,9 @@ header, nav, main {
 div a{
     text-decoration: none;
 }
+
+/*Header*/
+
 .header {
     display: flex;
     flex-direction: column;
@@ -180,12 +184,9 @@ nav ul li a {
 
 
 nav ul li.active a {
-    color: gold;
+    color: white;
 }
 
-nav ul li:active {
-    text-decoration: underline;
-}
 nav ul li a:visited {
     text-decoration: none;
     
@@ -196,6 +197,7 @@ nav ul li a:hover {
     color: gold;
 }
 
+/* main */
 
 main {
     max-width: 100%;
@@ -331,7 +333,7 @@ select{
     display: block;
 }
 
-
+/*footer*/
 
 .footer {
     
@@ -339,7 +341,7 @@ select{
     display: block;
     bottom: 0;
     text-align: center;
-    width: 100%;
+    width: 90%;
     background-color: black;
     
 }

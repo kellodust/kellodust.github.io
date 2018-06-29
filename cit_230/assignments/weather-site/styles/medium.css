@@ -4,11 +4,6 @@
     section.forecast { display: contents; }  
     
     
-    
-
-    
-    
-
 
 body {
     display: block;
@@ -256,7 +251,7 @@ main figure img {
 }
 
 section.forecast {
-    display: none;
+    display: contents;
 }
     
 
