@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+    
+    nav button { display: none; }  
+    section.forecast { display: contents; }  
+    
+    header{
+        display: block;
+        height: 150px;
+    }
+    
+    .logo{
+        width: 60%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    h1{
+        font-size: 250%;
+     
+    }
+    
+    ul{
+        display: none;
+    }
+    
+   
+    
+    .hamburger{
+        display: contents;
+        font-size: 300%;
+        color: black;
+        background-color: white;
+
+       
+    }
+    
+    main{
+        margin-top: 50%;
+        margin-left: none;
+    }
+    
+    .homelinks{
+        display: block;
+        background-color: white;
+        padding: 4em;;
+    }
+    
+    main img{
+        width: 150%;
+        
+    }
+    
+    main h2{
+        font-size: 200%;
+        padding: none;
+    }
+    
+    p{
+        display: none;
+    }
+    
+}
