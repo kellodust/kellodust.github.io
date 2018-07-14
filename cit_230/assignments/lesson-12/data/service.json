@@ -1,0 +1,25 @@
+var service{
+{
+    "services" :
+    [
+        {
+        "name" : "Drive Train Clean",
+        "price" : "32.00"
+    },
+        {
+            "name" : "Minor Tune",
+        "price" : "40.00"
+            
+        },
+        {
+            "name" : "Major Tune",
+        "price" : "50.00"
+        }, 
+        {
+            "name" : "Major Overhall",
+        "price" : "120.00"
+        }
+ 
+]
+}
+    }

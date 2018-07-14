@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head w3-include-html="head.html">
+    <title>The Mountain Spoke—Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <header w3-include-html="header.html">
+
+        </header>
+
+        <main>
+            <h4>Fill Out the form below to complete your registration.</h4>
+
+            <form action="goodluck.html" method="get">
+           <div id="name">
+                <label for="firstname">First Name:</label>
+                <input type="text" id=firstname name="firstname" title="First Name" required pattern="[A-Za-z- ]{3,}">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id=lastname name="lastName" title="Last Name" required pattern="[A-Za-z- ]{4,}">
+            </div><br>
+            
+       
+            <div>
+                <label for="email">Email:</label>
+
+                <input id="email" type="email" name="email" title="Email" placeholder="hello@email.com"></div><br>
+
+            <div>
+                <label for="telephone">Telephone: </label>
+
+                <input id="telephone" type="tel" name="telephone" title="Telephone" required>
+            </div><br>
+
+
+            <div>
+                <label for="zipcode">Zip Code: </label>
+
+                <input type="number"  id=zipcode name="zipcode" title="Zip Code" required></div><br>
+
+
+            <div>
+                <label for="date">Storm Date:</label>
+
+                <input type="date"  id="date" name="date" title="Date"></div><br>
+
+
+            <div>
+                <label>Storm Type:</label>
+
+                <input list="type" name="stormtype" title="Storm Type">
+                <datalist id="type">
+                              <option value="Flash Flood">
+                              <option value="Hail">
+                              <option value="Hurricane">
+                              <option value="Thunderstorm">
+                              <option value="Tornado">
+                            </datalist>
+            </div>
+          
+            <br>
+
+        
+           
+
+            <div>
+                <label for="comments" class="commentslabel">Additional Information or Comments</label>
+                <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+            </div>
+
+
+            <br><input type="submit" value="Save">
+
+        </form>
+
+
+
+
+        </main>
+        <footer w3-include-html="footer.html">
+
+        </footer>
+
+
+
+        <script src="scripts/include.js"></script>
+        <script src="scripts/modularize.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+        <!--      <script src="scripts/services.js"></script> -->
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    </div>
+</body>
+</html>
