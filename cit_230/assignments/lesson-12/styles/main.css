@@ -50,7 +50,7 @@ header a {
 /* NAV INFO */
 
 nav {
-    display: inline;
+    width: 50%;
 
 }
 
@@ -58,10 +58,6 @@ nav {
     display: none;
 }
 
-nav ul {
-    display: flex;
-
-}
 
 li {
 
@@ -76,7 +72,6 @@ li {
 li a {
     text-decoration: none;
     font-weight: 200;
-    display: inline;
     padding-top: 10%;
     padding-bottom: 10%;
     color: black;
@@ -153,7 +148,7 @@ main h4 {
 
 main img {
     width: 600px;
-    padding-right: 5%;
+    
     padding-bottom: 5%;
     padding-top: 3.9em;
 }
@@ -201,6 +196,10 @@ p {
     display: flex;
     padding-bottom: 7%;
     align-items: stretch;
+}
+
+.homelinks h2{
+    padding-left: 2%;
 }
 
 /* REGISTER PAGE */
