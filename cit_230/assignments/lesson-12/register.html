@@ -13,7 +13,8 @@
         <main>
             <h4>Fill Out the form below to complete your registration.</h4>
 
-            <form action="goodluck.html" method="get" id="form">
+            <form action="goodluck.html" method="get">
+            <div id="form">
            <div>
                <div id="first">
                 <label for="firstname">First Name:</label>
@@ -31,16 +32,18 @@
 
                 <input id="email" type="email" name="email" title="Email" placeholder="hello@email.com"></div><br>
 
+           </div>
+
+
             <div>
+            <div>
+               
                 <label for="telephone">Telephone: </label>
 
                 <input id="telephone" type="tel" name="telephone" title="Telephone" required>
             </div><br>
             
-                </div>
-
-
-            <div>
+                
 
 
             <div>
@@ -57,21 +60,25 @@
           
             <br>
 
-        
+         </div>
+          
+          <div>
            
 
             <div class="comments">
                 <label for="comments" class="commentslabel">Additional Information or Comments:</label>
                 <textarea name="comments" id="comments" cols="80" rows="10"></textarea>
-                <textarea name="comments" id="commentssmall" cols="50" rows="10"></textarea>
+             
+           
             </div>
-            
             </div>
-
+</div>
 
             <br><input class="save" type="submit" value="Save">
 
         </form>
+        
+        <img src="images/bikeinsunlight.jpg" alt="Bike in Woods" class="registerphoto">
 
 
 
@@ -82,6 +89,7 @@
         </footer>
 
 
+        <script src="scripts/currentdate.js"></script>
 
             <script src="scripts/include.js"></script>
         <script src="scripts/hamburger.js"></script>

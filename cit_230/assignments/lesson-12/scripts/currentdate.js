@@ -40,3 +40,4 @@ function setCurrentDate()
     document.getElementById("currentyear").innerHTML = d.getFullYear();
     
 }
+

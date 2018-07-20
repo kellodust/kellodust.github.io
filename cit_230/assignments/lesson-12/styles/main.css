@@ -35,10 +35,11 @@ h1 {
     display: inline;
     text-transform: uppercase;
     letter-spacing: .12em;
-    font-size: 400%;
+    font-size: 250%;
     padding-top: 1em;
-    padding-left: .1em;
+    padding-left: .5em;
     color: black;
+    flex-wrap: nowrap;
 
 }
 
@@ -68,7 +69,7 @@ li {
     font-size: 150%;
     display: inline;
     padding: 1%;
-   
+
 
 }
 
@@ -87,8 +88,10 @@ li a:hover {
     text-decoration: underline white;
 }
 
-li a .active {
-    text-decoration: underline black;
+
+nav ul li.active a {
+    
+     text-decoration: underline black;
 }
 
 /* MAIN INFO */
@@ -97,7 +100,7 @@ main {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 4%;
-    width: 1200px;
+    width: 70%;
     position: relative;
 }
 
@@ -126,6 +129,7 @@ main h4 {
     font-size: 170%;
     letter-spacing: .05em;
 }
+
 
 .call {
     padding: .5em;
@@ -199,9 +203,18 @@ p {
     align-items: stretch;
 }
 
+/* REGISTER PAGE */
+
 #form {
     display: flex;
-    align-items: flex-start;
+}
+
+#form label {
+    display: block;
+}
+
+#form input{
+    padding: 8px;
 }
 
 #form div {
@@ -213,11 +226,14 @@ p {
     display: inline;
 }
 
-#form #commentssmall {
-    display: none;
+#form .save {
+    width: 100px;
+    height: 50px;
 }
 
-
+.registerphoto{
+    width: 100%;
+}
 
 /* ACCORDIAN MENU */
 
@@ -246,11 +262,38 @@ p {
 
 .ss_content h3 {
     color: black;
-    padding-left: none;
+    padding-left: 0;
 }
 
 .ss_flex {
     display: flex;
+}
+
+.ss_flex img{
+    width: 60%;
+    height: 60%
+}
+
+table{
+    width: 100%;
+    font-size: 130%;
+    background-color: black;
+    color: white;
+}
+
+th, td{
+    padding: 3%;
+    text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 180%;
+}
+
+.repairs{
+    width: 100%;
 }
 
 
@@ -291,9 +334,6 @@ form .contact {
     padding-right: 5%;
 }
 
-/*.contact .commentssmall{
-    display: none;
-}
 
 /* FOOTER INFO */
 

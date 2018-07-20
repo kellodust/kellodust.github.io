@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
 
 
 
@@ -47,6 +47,8 @@
 
     li {
         display: block;
+        position: relative;
+        z-index: 1000;
 
 
     }
@@ -64,7 +66,7 @@
     header {
         display: block;
         height: 150px;
-        margin-left: none;
+        margin-left: 5%;
         text-decoration: none;
 
     }
@@ -76,16 +78,20 @@
         padding-top: 3%;
         padding-bottom: 3%;
         padding-left: 20%;
+        display: block;
     }
 
     h1 {
         font-size: 250%;
-        padding-left: none;
+        padding-left: 0;
 
 
     }
 
-
+    iframe {
+        width: 90%;
+        height: 400px;
+    }
 
 
     .hamburger {
@@ -99,7 +105,7 @@
 
     .rightaligned {
         text-align: left;
-        padding-right: 0%:
+        padding-right: 0;
     }
 
 
@@ -112,33 +118,33 @@
 
     .homelinks {
         display: block;
-        align-items: none;
+        
     }
 
     main img {
         width: 90%;
-        padding-right: none;
-        padding-left: none;
-        padding-bottom: none;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
 
     }
 
     main img.event {
         width: 90%;
-        padding-right: none;
-        padding-left: none;
-        padding-bottom: none;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
 
     }
 
     main h2 {
         font-size: 180%;
-        padding: none;
+        padding: 0;
     }
 
     main h2.events {
         font-size: 150%;
-        padding: none;
+        padding: 0;
         margin: 0;
         margin-right: 0;
         margin-left: 0;
@@ -147,18 +153,28 @@
     main h3 {
         font-size: 100%;
     }
+    
+    table{
+    width: 90%;
+    }
+
+
+.repairs{
+    width: 90%;
+    padding-bottom: 10%;
+}
+    
+    
+    
+    
     #form {
-        display: block;
-    }
+        display: flex;
+        flex-direction: column;
 
-
-
-    #form #commentssmall {
-        display: contents;
     }
-    #form #comments {
-        display: none;
-    }
+    
+
+ 
 
     #form div {
         padding: 1%;
@@ -169,6 +185,20 @@
         display: inline;
     }
 
+    #form input {
+        width: 50%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #form textarea {
+        width: 90%;
+    }
+
+    #form .save {
+        width: 50%;
+        height: auto;
+    }
 
     .call {
         width: 85%;
@@ -191,9 +221,16 @@
     .ss_flex {
         display: block;
     }
-   /* .contact #comments {
-        display: none;
-    }
- */
-
+    
+    .ss_flex img{
+    width: 90%;
+    height: 90%;
 }
+    
+    .contact textarea{
+        width: 90%;
+    }
+
+    .registerphoto{
+        width: 90%;
+    }
