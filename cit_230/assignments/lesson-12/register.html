@@ -13,10 +13,13 @@
         <main>
             <h4>Fill Out the form below to complete your registration.</h4>
 
-            <form action="goodluck.html" method="get">
-           <div id="name">
+            <form action="goodluck.html" method="get" id="form">
+           <div>
+               <div id="first">
                 <label for="firstname">First Name:</label>
                 <input type="text" id=firstname name="firstname" title="First Name" required pattern="[A-Za-z- ]{3,}">
+               </div><br>
+                <div id="lastname">
 
                 <label for="lastname">Last Name:</label>
                 <input type="text" id=lastname name="lastName" title="Last Name" required pattern="[A-Za-z- ]{4,}">
@@ -33,31 +36,23 @@
 
                 <input id="telephone" type="tel" name="telephone" title="Telephone" required>
             </div><br>
+            
+                </div>
 
 
             <div>
-                <label for="zipcode">Zip Code: </label>
-
-                <input type="number"  id=zipcode name="zipcode" title="Zip Code" required></div><br>
 
 
             <div>
-                <label for="date">Storm Date:</label>
+                <label for="date">Date of Birth:</label>
 
                 <input type="date"  id="date" name="date" title="Date"></div><br>
 
 
             <div>
-                <label>Storm Type:</label>
-
-                <input list="type" name="stormtype" title="Storm Type">
-                <datalist id="type">
-                              <option value="Flash Flood">
-                              <option value="Hail">
-                              <option value="Hurricane">
-                              <option value="Thunderstorm">
-                              <option value="Tornado">
-                            </datalist>
+             <label for="homestate">Home State or Country:</label>
+                <input type="text" id=homestate name="homeState" title="Home State" required pattern="[A-Za-z- ]">
+             
             </div>
           
             <br>
@@ -65,13 +60,16 @@
         
            
 
-            <div>
-                <label for="comments" class="commentslabel">Additional Information or Comments</label>
-                <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+            <div class="comments">
+                <label for="comments" class="commentslabel">Additional Information or Comments:</label>
+                <textarea name="comments" id="comments" cols="80" rows="10"></textarea>
+                <textarea name="comments" id="commentssmall" cols="50" rows="10"></textarea>
+            </div>
+            
             </div>
 
 
-            <br><input type="submit" value="Save">
+            <br><input class="save" type="submit" value="Save">
 
         </form>
 
@@ -85,11 +83,13 @@
 
 
 
-        <script src="scripts/include.js"></script>
+            <script src="scripts/include.js"></script>
+        <script src="scripts/hamburger.js"></script>
         <script src="scripts/modularize.js"></script>
         <script src="scripts/wayfinding.js"></script>
-        <!--      <script src="scripts/services.js"></script> -->
+  <!--      <script src="scripts/services.js"></script> -->
         <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+      
     </div>
 </body>
 </html>

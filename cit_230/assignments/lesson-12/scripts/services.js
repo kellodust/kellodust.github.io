@@ -8,7 +8,7 @@
     request.onload = function () {
         var service = request.response;
         
-        console.log(response);
+ 
        
         $.each(response.services, function(i, item){
             var tr = $('<tr>').append(
