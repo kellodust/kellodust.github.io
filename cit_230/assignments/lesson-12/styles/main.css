@@ -279,7 +279,9 @@ table{
     background-color: black;
     color: white;
 }
-
+a #references{
+    color: white;
+}
 th, td{
     padding: 3%;
     text-align: center;
@@ -290,7 +292,9 @@ th{
     letter-spacing: .2em;
     font-size: 180%;
 }
-
+.references ul li{
+    display: block;
+}
 .repairs{
     width: 100%;
 }
