@@ -1,0 +1,135 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+ 
+  
+  /*  font-family: 'IM Fell Great Primer', serif; */
+
+}
+
+.container {
+    /* background: linear-gradient(to bottom, rgb(43, 164, 153), rgb(20, 178, 216), rgb(193, 88, 152), rgb(139, 42, 59));  */
+    background-color: white;
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    color: black;
+}
+
+header {
+
+    padding: 2%;
+    padding-right: 6%;
+    padding-left: 6%;
+    display: flex;
+    align-items: baseline;
+    
+
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+   
+    font-size: 300%;
+    letter-spacing: 3pt;
+    font-weight: 1000;
+
+}
+
+h2{
+    font-size: 1000%;
+    text-transform: uppercase;
+    color: deeppink;
+    letter-spacing: 8pt;
+        
+}
+
+nav {
+   
+    word-spacing: 20pt;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    font-size: 130%;
+    display: inline;
+
+}
+
+nav a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a:hover{
+    transition: .3s;
+    color: deeppink;
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+
+}
+
+main p{
+    font-size: 200%;
+    line-height: 170%;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.bio{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+main img {
+    width: 100%;
+   
+}
+
+main img:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+img.mypic{
+    width: 30%;
+    padding-right: 5%;
+    
+}
+
+img.mypic:hover{
+    transform: none;
+    transition: none;
+}
+
+
+footer{
+    height: 90px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}
+
