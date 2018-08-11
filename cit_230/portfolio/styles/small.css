@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+
+    
+    header{
+        align-items: center;
+        padding: 0;
+        font-size: 90%;
+    }
+    
+    header, main{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 450%;
+        letter-spacing: 4pt;
+    }
+    
+    img.mypic{
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    main p{
+        font-size: 150%;
+    }
+    
+    .flex{
+    grid-template-columns: auto;
+    
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+   
+    header{
+        display: contents;
+        font-size: 120%;
+        
+    }
+    
+    h1{
+        
+        padding-left: 12%;
+    }
+    
+    nav ul li{
+        display: block;
+    }
+    
+    h2{
+        font-size: 300%;
+    }
+    
+    main p{
+        font-size: 110%;
+    }
+}

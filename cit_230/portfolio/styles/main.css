@@ -1,3 +1,5 @@
+
+
 body {
     display: block;
     margin-left: auto;
@@ -17,7 +19,7 @@ body {
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     color: black;
 }
 
@@ -71,6 +73,12 @@ nav a{
     text-decoration: none;
     color: black;
 
+}
+
+
+nav ul li.active a {
+    color: dimgray;
+    
 }
 
 nav a:hover{
@@ -131,5 +139,10 @@ footer{
     position: absolute;
     text-align: center;
     background-color: white;
+}
+
+footer .socialmedia img{
+    width: 35px;
+    padding: .4%;
 }
 
