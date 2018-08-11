@@ -96,6 +96,14 @@ main {
 main p{
     font-size: 200%;
     line-height: 170%;
+
+}
+
+main a{
+    color: black;
+    text-decoration: none;
+    
+
 }
 
 .flex{
@@ -110,7 +118,7 @@ main p{
     flex-wrap: wrap;
 }
 
-main img {
+.flex img {
     width: 100%;
    
 }
@@ -129,6 +137,15 @@ img.mypic{
 img.mypic:hover{
     transform: none;
     transition: none;
+}
+
+.connectsocialmedia{
+    display: flex; 
+}
+
+.connectsocialmedia img{
+    width: 100%;
+    padding: .9%;
 }
 
 
