@@ -1,5 +1,5 @@
 # kellodust.github.io
-<!DOCTYPE html>
+
 <html lang="">
 <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <p><a href="https://kellodust.github.io/cit_230/">Click here</a>to be redirected to my portal page!</p>
+    <p><a href="https://kellodust.github.io/cit_230/">Click here</a> to be redirected to my portal page!</p>
 </body>
 </html>
 
