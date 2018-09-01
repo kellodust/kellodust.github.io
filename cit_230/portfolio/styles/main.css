@@ -148,6 +148,35 @@ img.mypic:hover{
     padding: .9%;
 }
 
+.portfolio h3{
+    font-size: 2em;
+    
+}
+
+.portfolio img{
+    width: 100%;
+}
+.portfolio img:hover{
+    transform: none;
+    
+}
+
+.portfolio h4{
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+}
+
+.portfolio p{
+    font-size: 1.5em;
+}
+
+.portfoliogrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2%;
+}
+
 
 footer{
     height: 90px;
