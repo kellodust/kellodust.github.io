@@ -109,6 +109,7 @@ main a{
 .flex{
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-gap: 0px;
     
 }
 
