@@ -29,12 +29,12 @@ body {
   display: block;
   position: relative;
   padding-bottom: 120px;
-  background-color: white;
+  background-color: black;
 }
 
 header a {
   text-decoration: none;
-  color: #899a7b;
+  color: #fa7b26;
 }
 
 strong {
@@ -59,7 +59,7 @@ footer {
   position: absolute;
   text-align: center;
   background-color: white;
-  color: #899a7b;
+  color: #fa7b26;
 }
 
 footer .socialmedia img {
